@@ -1,0 +1,177 @@
+@charset "utf-8";
+
+/*内容*/
+
+.login h1 span,
+.login .user,
+.login .pass,
+.logn_save span,
+.logn_save input,
+.logn_save label,
+.signin .weibo,
+.main_l .wrap h1 span,
+.wrap h1 span {
+    background: url(../images/ico.png) no-repeat 0 600px;
+}
+.login h1,
+.btn_login,
+.main_l .wrap h1 {
+    background: url(../images/btn.png) no-repeat 0 1000px;
+}
+.main_l {
+    float: left;
+    width: 252px;
+}
+.main_l .wrap {
+    border: 1px solid #b4d9f0;
+    background-color: #fff;
+}
+.main_l .wrap h1 {
+    height: 32px;
+    color: #209bdc;
+    font-size: 14px;
+    line-height: 32px;
+    background-position: 0px -2px;
+    border-bottom: 1px solid #b4d9f0;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+}
+.main_l .wrap h1 span {
+    padding-left: 24px;
+    font-weight: bold;
+}
+.main_l .wrap h1 a {
+    float: right;
+    font-size: 12px;
+    color: #86b7d1;
+}
+.login {
+    border: 1px solid #b4d9f0;
+    background-color: #fff;
+    height: 249px;
+    border-top: 2px solid #32beff;
+    margin-bottom: 10px;
+}
+.login h1 {
+    height: 32px;
+    color: #209bdc;
+    background-position: 0px -2px;
+    font-size: 14px;
+    line-height: 32px;
+    padding-left: 14px;
+}
+.login h1 .title {
+    background-position: right -392px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+.login h1 a {
+    font-size: 12px;
+    font-weight: normal;
+}
+.login h1 a:hover {
+    text-decoration: underline;
+}
+.login input {
+    border: none;
+    height: 27px;
+    border: 1px solid #b4d9f0;
+    display: block;
+    margin: 0px auto 10px auto;
+    color: #c8c8c8;
+    line-height: 27px;
+    padding-left: 24px;
+    width: 182px;
+}
+.login .user {
+    background-position: 2px -334px;
+}
+.login .pass {
+    background-position: 2px -354px;
+}
+.logn_save {
+    margin: 0 auto;
+    width: 208px;
+}
+.logn_save label {
+    background-position: 0px -161px;
+    float: left;
+    line-height: 20px;
+    height: 20px;
+    padding-left: 22px;
+    cursor: pointer;
+}
+.logn_save label input {
+    height: 20px;
+    display: none;
+    margin: 0;
+    vertical-align: bottom;
+    /*    color: #c8c8c8;*/
+    line-height: 20px;
+}
+/*
+.logn_save span {
+    padding-left: 20px;
+    background-position: 0px -161px;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+*/
+
+.logn_save a {
+    float: right;
+}
+input.btn_login {
+    width: 210px;
+    height: 39px;
+    background-position: 0px -106px;
+    margin-top: 13px;
+    border: none;
+    cursor: pointer;
+}
+input.btn_login:hover {
+    background-position: 0px -151px;
+}
+.signin {
+    width: 210px;
+    margin: 0 auto;
+    line-height: 20px;
+    height: 20px;
+}
+.signin .weibo {
+    background-position: left -198px;
+    padding-left: 26px;
+    display: inline-block;
+    +zoom: 1;
+    +float: left;
+    transition: background-position 0.4s ease-out;
+}
+.signin .weibo:hover {
+    background-position: left -223px;
+}
+/*
+.main_l .server_list .title {
+    padding-left: 0px;
+}
+*/
+
+.server_nav {
+    margin: 0px 10px;
+    /*    width: 230px;*/
+}
+.server_nav li {
+    /*    display: inline-block;*/
+    float: left;
+    width: 113px;
+    text-align: center;
+    height: 28px;
+    line-height: 28px;
+    border-top: 2px solid #cee3e8;
+    border-left: 1px solid #cee3e8;
+    border-right: 1px solid #cee3e8;
+}
+.server_nav li:hover {} .main_r {
+    float: right;
+}
